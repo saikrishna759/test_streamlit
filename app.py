@@ -6,5 +6,5 @@ st.title("Welcome to Streamlit!")
 st.write("Our first DataFrame")
 
 st.dataframe(
-  pd.read_csv("combined_indian_songs_data.csv")
+  pd.read_csv("https://github.com/saikrishna759/test_streamlit/blob/main/combined_indian_songs_data.csv")
 )
